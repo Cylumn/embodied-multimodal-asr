@@ -8,9 +8,9 @@
 [Tejas Srinivasan](https://tejas1995.github.io/), 
 [Jesse Thomason](https://jessethomason.com/)
 
-A **multimodal ASR implementation** utilizing a language-guided agent's vision to reduce errors in spoken instruction transcripts. The model is trained on a dataset of synthetic spoken instructions, derived from the [ALFRED household task dataset](https://github.com/askforalfred/alfred), which are noised systematically by masking spoken words. Spoken instructions transcribed by multimodal ASR models result in higher task completion success rates for a language-guided embodied agent.
+A **multimodal ASR implementation** utilizing a language-guided agent's vision to reduce errors in spoken instruction transcripts. The model is trained on a dataset derived from the [ALFRED household task dataset](https://github.com/askforalfred/alfred) with synthetic spoken instructions, which are noised systematically by masking spoken words. Spoken instructions transcribed by multimodal ASR models result in higher task completion success rates for a language-guided embodied agent.
 
-![Embodied Multimodal ASR](media/embodied_multimodal_asr.png)
+<img src="media/embodied_multimodal_asr.png" alt="Embodied Multimodal ASR" style="max-width: 500px;">
 
 ## Installation
 Clone the repository:
@@ -81,7 +81,7 @@ multimodal.decoder.load_state_dict(torch.load(
     map_location='cuda'
 ))
 ```
-Colab demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Cylumn/embodied-multimodal-asr/blob/master/demo.ipynb)
+Colab demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Cylumn/embodied-multimodal-asr/blob/main/demo.ipynb)
 
 ## Citation
 ```

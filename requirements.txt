@@ -10,3 +10,6 @@ ipython==7.31.1
 ipykernel==6.15.2
 tensorboard==2.11.0
 git+https://github.com/openai/CLIP.git
+torch==1.12.0
+torchvision==0.13.0
+torchaudio==0.12.0
