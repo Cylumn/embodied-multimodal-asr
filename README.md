@@ -85,12 +85,10 @@ Colab demo: [![Open In Colab](https://colab.research.google.com/assets/colab-bad
 
 ## Citation
 ```
-@misc{EmbodiedMultimodalASR,
-      title={Multimodal Speech Recognition for Language-Guided Embodied Agents}, 
-      author={Allen Chang and Xiaoyuan Zhu and Aarav Monga and Seoho Ahn and Tejas Srinivasan and Jesse Thomason},
-      year={2023},
-      eprint={2302.14030},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{chang23_interspeech,
+  author={Allen Chang and Xiaoyuan Zhu and Aarav Monga and Seoho Ahn and Tejas Srinivasan and Jesse Thomason},
+  title={{Multimodal Speech Recognition for Language-Guided Embodied Agents}},
+  year=2023,
+  booktitle={Interspeech 2023}
 }
 ```
